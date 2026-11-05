@@ -1,0 +1,5 @@
+3c7cba82c0944820b5790bd2bdd3e93859bd68c26523b4925f1141fdaefdee26  Thesivor-0.1.2-linux-amd64.deb
+8afbe8de329abc4fbd28ecfc0317b0690678aa650d66f9599709d34fbcf9876a  Thesivor-0.1.2-linux-x86_64.AppImage
+c9a87581e00bf5d3e39ed84278004c184035622e994a8db8536c03f86cbbfe9e  Thesivor-0.1.2-mac-arm64.dmg
+a34f8ec9bcedcd9f34b2d8f553285c4cd29c3728c4ff42b9da53a3772bf9d4b5  Thesivor-0.1.2-mac-x64.dmg
+9936fe7cff4817dc3d4f44c69fadf23c35cb8da70b47393fbcec621159b3f532  Thesivor-0.1.2-win-x64.exe
