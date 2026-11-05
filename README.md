@@ -19,7 +19,7 @@ This repository holds the README, release notes and checksums, with no source co
 | Linux, any distribution | `Thesivor-<version>-linux-x86_64.AppImage` |
 | Debian or Ubuntu | `Thesivor-<version>-linux-amd64.deb` |
 
-The builds are **unsigned**, so your OS warns you on first open. The install page above shows how to open them.
+The builds are **unsigned**, so your OS warns you on first open. On a Mac: click Done (not Move to Bin) in the “Not Opened” dialog, then System Settings → Privacy & Security → Open Anyway (Apple: https://support.apple.com/en-us/102445); it repeats for each new unsigned version. The install page above has every system.
 
 ## Check your download
 
