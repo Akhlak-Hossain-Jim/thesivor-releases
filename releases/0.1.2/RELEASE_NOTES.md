@@ -47,7 +47,7 @@ Windows and Linux are previews: version 0.1.0 was tested by the developer on one
 
 There is no Apple or Windows certificate yet, so your operating system will warn you the first time you open the app. Full instructions: https://docs.thesivor.akhlak.dev. The key steps:
 
-- **macOS:** open the `.dmg`, drag Thesivor to Applications, then right-click it → Open → Open. If macOS refuses to open it, run `xattr -dr com.apple.quarantine /Applications/Thesivor.app` once and open it again. On recent macOS you may need System Settings → Privacy & Security → Open Anyway.
+- **macOS:** open the `.dmg`, drag Thesivor to Applications, then open it. macOS says “Thesivor” Not Opened (“Apple could not verify “Thesivor” is free of malware that may harm your Mac or compromise your privacy.”): **click Done, not Move to Bin.** Then System Settings → Privacy & Security → scroll to Security → “Thesivor” was blocked → **Open Anyway** → your password → open Thesivor again → **Open Anyway**. This is Apple's own route (https://support.apple.com/en-us/102445). Or, once, in Terminal: `xattr -dr com.apple.quarantine /Applications/Thesivor.app`. It repeats for each new unsigned version.
 - **Windows:** run the `.exe`. If Windows SmartScreen blocks it, click More info → Run anyway.
 - **Linux AppImage:** `chmod +x Thesivor-0.1.2-linux-x86_64.AppImage`, then run it. If it will not start, install FUSE 2 (`sudo apt install libfuse2`) or run it with `--appimage-extract-and-run`.
 - **Linux .deb:** `sudo apt install ./Thesivor-0.1.2-linux-amd64.deb`.
