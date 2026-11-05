@@ -1,0 +1,10 @@
+# Installers live only in GitHub Release assets, never in git.
+*.dmg
+*.exe
+*.deb
+*.AppImage
+*.msi
+*.pkg
+*.zip
+*.tar.gz
+*.blockmap
