@@ -1,0 +1,9 @@
+8b6661a7e29bb3f4fcc0b889e263d8a263d44c9cff7c490b8da33998ba04e49a  RELEASE_NOTES.md
+d8de794ff90ef8948f91997dae4e95ab93f51874dbcf15f33bf0da58dd29f9d0  Thesivor-0.1.3-linux-amd64.deb
+0a66af0dc66c75fbbe73e95387d1e9de97f074e43ff125ba8793e08505a36839  Thesivor-0.1.3-linux-x86_64.AppImage
+eb5b9ed5e16d1c1637aaae101b8185e6b2eed42438d145bc7cdba2abee6136dc  Thesivor-0.1.3-mac-arm64.dmg
+f09f53c900f305ea85019aa2cbd158f4c66cc7eea50526978784405384e9a9f1  Thesivor-0.1.3-mac-x64.dmg
+37721b20645e27430377b3336ba285a28bbb0bb2d48a207ee64eba1b1d3ac1ee  Thesivor-0.1.3-win-x64.exe
+cbe329519665ff2c5a61e7ad6590508601d45cbf7cd77e4d42a121e7b3d0325f  Thesivor-0.1.3-win-x64.exe.blockmap
+12cd1389c58a1826af33c1495bcb3cafeaf33991cef966ee601e77f814685ec4  latest-linux.yml
+72f566b12090f3df0e8aae27f5c131dc8917d0f1afb7b73d3be7fa2e136da8e5  latest.yml
