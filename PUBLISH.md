@@ -2,6 +2,21 @@
 
 Owner: `Akhlak-Hossain-Jim`, repo: `Akhlak-Hossain-Jim/thesivor-releases`. The installers are built in `thesivor-app` (`dist/release-<version>/`) and go ONLY into the GitHub Release as assets, never into git (see `.gitignore`).
 
+## 0.1.3 (pre-release)
+
+```sh
+cd ../thesivor-app/dist/release-0.1.3 && shasum -a 256 -c SHA256SUMS.txt && cd -   # every line OK
+
+gh release create v0.1.3 --repo Akhlak-Hossain-Jim/thesivor-releases --prerelease \
+  --title "Thesivor 0.1.3 (preview, being tested)" --notes-file releases/0.1.3/RELEASE_NOTES.md \
+  ../thesivor-app/dist/release-0.1.3/Thesivor-0.1.3-*.{dmg,exe,AppImage,deb} \
+  ../thesivor-app/dist/release-0.1.3/Thesivor-0.1.3-win-x64.exe.blockmap \
+  ../thesivor-app/dist/release-0.1.3/latest.yml ../thesivor-app/dist/release-0.1.3/latest-linux.yml \
+  releases/0.1.3/SHA256SUMS.txt
+```
+
+`latest.yml` and `latest-linux.yml` are the update metadata electron-updater reads (Windows NSIS, Linux AppImage); `latest-linux.yml` must name the AppImage. When testers pass: `gh release edit v0.1.3 --repo Akhlak-Hossain-Jim/thesivor-releases --prerelease=false --latest`, then change the landing page's "0.1.3 preview" label and the docs' "being tested" wording.
+
 ## 0.1.2 (pre-release)
 
 ```sh
