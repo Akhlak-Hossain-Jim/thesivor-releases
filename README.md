@@ -6,7 +6,7 @@ This repository holds the README, release notes and checksums, with no source co
 
 - Website: https://thesivor.akhlak.dev
 - Documentation and install help: https://docs.thesivor.akhlak.dev
-- Releases: see **Releases** on the right. **v0.1.2 is a pre-release** that testers are checking now; v0.1.0 remains the latest stable release until it passes.
+- Releases: see **Releases** on the right. **v0.1.3 is a pre-release** that testers are checking now (it fixes 0.1.2 starting with an empty data folder and adds in-app updates; 0.1.2 users install 0.1.3 by hand once). v0.1.0 remains the latest stable release until 0.1.3 passes.
 - Per-version notes and checksums are kept in this repo under `releases/<version>/`.
 
 ## Which file?
